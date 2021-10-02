@@ -14,9 +14,15 @@ body {
   padding: 0px;
   /* Large padding which will shrink on scroll (using JS) */
   transition: 0.4s;
+
+  
+
   /* Adds a transition effect when the padding is decreased */
   /* to to sprawia że divy stackują się w sobie*/
-  position: fixed;
+  /*position: fixed;*/
+
+
+
   /* Sticky/fixed navbar */
   width: 100%;
   top: 0;
