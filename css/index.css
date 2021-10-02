@@ -1,26 +1,24 @@
+ @import "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css";
+
 body {
   margin: 0;
   padding: 0;
   font: bold 14px/1.4 "Open Sans", arial, sans-serif;
   color: #252525;
-  background: linear-gradient(rgba(37, 37, 37, 0.5), rgba(37, 37, 37, 0.5)),
-    url(../img/background.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~  NAVBAR  ~~~~~~~~~~~~~~~~~~~~~~ */
 .navbar {
   overflow: hidden;
-  background: transparent;
+  
+  /* W zasadzie tego nie potrzebuje. 
   padding: 0px;
-  /* Large padding which will shrink on scroll (using JS) */
+  /* Large padding which will shrink on scroll (using JS) 
   transition: 0.4s;
+*/
+
 
   /* Adds a transition effect when the padding is decreased */
-  /* to to sprawia że divy stackują się w sobie*/
   position: fixed;
 
   /* Sticky/fixed navbar */
@@ -28,8 +26,11 @@ body {
   top: 0;
   /* At the top */
   z-index: 99;
+  
 }
-.navbar-fixed-top.scrolled {
+
+
+.navbar.scrolled {
   background-color: #fff !important;
   transition: background-color 200ms linear;
 }
@@ -116,9 +117,18 @@ a:hover:after {
 
 /* KONIEC NAVBARA */
 
-#wieksza {
-  height: 500vh;
-  clear: both;
+#main {
+  background: url(../img/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+#second {
+  height: 60vh;
+  background: url(../img/second.jpg) no-repeat center center fixed;
+  
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~  SLIDING BACKGROUND  ~~~~~~~~~~~~~~~~~~~~~~ */
