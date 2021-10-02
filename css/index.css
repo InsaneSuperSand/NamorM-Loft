@@ -3,8 +3,12 @@ body {
   padding: 0;
   font: bold 14px/1.4 "Open Sans", arial, sans-serif;
   color: #252525;
-
-  background-color: #252525;
+  background: linear-gradient(rgba(37, 37, 37, 0.5), rgba(37, 37, 37, 0.5)),
+    url(../img/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~  NAVBAR  ~~~~~~~~~~~~~~~~~~~~~~ */
@@ -15,13 +19,9 @@ body {
   /* Large padding which will shrink on scroll (using JS) */
   transition: 0.4s;
 
-  
-
   /* Adds a transition effect when the padding is decreased */
   /* to to sprawia że divy stackują się w sobie*/
-  /*position: fixed;*/
-
-
+  position: fixed;
 
   /* Sticky/fixed navbar */
   width: 100%;
@@ -116,16 +116,8 @@ a:hover:after {
 
 /* KONIEC NAVBARA */
 
-html {
-  background: url(../img/background.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
 #wieksza {
-  height: 10vh;
+  height: 500vh;
   clear: both;
 }
 
