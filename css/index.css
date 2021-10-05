@@ -161,14 +161,23 @@ a:hover:after {
   
   position: relative;
   object-fit: none;
-}
-
-#dummy {
-  height: 40vh
+  
 }
 
 
+.footer{
+  height: 130vh;
+  background-color: #252525;
+  margin-top: -50vh;
+  position:absolute;
+  width: 100%;
+}
 
+
+.contactText{
+
+color: #ff0000;
+}
 
 
 
