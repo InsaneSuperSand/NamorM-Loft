@@ -1,3 +1,14 @@
+
+
+
+$(window).scroll(function(){
+	$('.navbar').toggleClass('scrolled', $(this).scrollTop() > 50);
+});
+
+
+
+
+
 $(window).scroll(function() {
   var scrollTop = $(this).scrollTop();
 
