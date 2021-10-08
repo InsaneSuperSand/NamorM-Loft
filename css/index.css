@@ -1,4 +1,4 @@
-@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css);
+/*@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css);*/
 body {
   margin: 0;
   padding: 0;
@@ -12,10 +12,12 @@ body {
 .navbar-default {
   transition: 500ms ease;
   background: transparent;
+
+
 }
 
 .navbar-default.scrolled {
-  background: #000;
+  background: #252525;
 }
 .navbar {
   overflow: hidden;
@@ -25,6 +27,8 @@ body {
   z-index: 99;
   height: 140px;
   background-color: transparent;
+
+
 }
 
 
@@ -75,7 +79,9 @@ a {
   display: inline-block;
   padding: 15px 20px;
   position: relative;
+ 
 }
+
 
 a:after {
   background: none repeat scroll 0 0 transparent;
@@ -88,24 +94,29 @@ a:after {
   background: #ffe432;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
+  
 }
 
 a:hover:after {
   width: 100%;
   left: 0;
+ 
 }
-
+a:hover{
+  color:#ffe432;
+}
+/*
 @media screen and (max-height: 300px) {
   ul {
     margin-top: 40px;
   }
 }
 
-/* Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally */
+ /*Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally 
 @media screen and (max-width: 580px) {
   .navbar {
     padding: 20px 10px !important;
-    /* Use !important to make sure that JavaScript doesn't override the padding on small screens */
+    /* Use !important to make sure that JavaScript doesn't override the padding on small screens 
   }
 
   .navbar a {
@@ -114,8 +125,15 @@ a:hover:after {
     text-align: left;
   }
 
-  .navbar-right {
-    float: none;
+*/
+
+@media (min-width: 768px) {
+  .navbar-brand.abs {
+    position: absolute;
+    width: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
   }
 }
 

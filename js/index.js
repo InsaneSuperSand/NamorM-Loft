@@ -9,6 +9,10 @@ $(window).scroll(function(){
 
 
 
+
+
+
+
 $(window).scroll(function() {
   var scrollTop = $(this).scrollTop();
 
