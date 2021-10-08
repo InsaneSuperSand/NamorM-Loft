@@ -142,6 +142,16 @@ a:hover{
 /* KONIEC NAVBARA */
 
 /* ~~~~~~~~~~~~~~~~~~~~~~   ~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+
+
+
+
+
+
+
 .main {
   background: url(../img/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -150,7 +160,11 @@ a:hover{
   background-size: cover;
   height: 100vh;
   filter: brightness(50%);
+
+
 }
+
+
 .mainOverlay {
   position: absolute;
   top: 0;
@@ -169,7 +183,7 @@ a:hover{
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
-
+background-size: 200vh;
   filter: brightness(50%);
 }
 
