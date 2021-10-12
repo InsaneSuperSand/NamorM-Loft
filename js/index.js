@@ -1,6 +1,10 @@
 
 
 
+$(document).ready(function () {
+  $('.fadeOnLoad').fadeIn('slow');
+});
+
 $(window).scroll(function(){
 	$('.navbar').toggleClass('scrolled', $(this).scrollTop() > 50);
 });
