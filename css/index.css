@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font: bold 14px/1.4 "Open Sans", arial, sans-serif;
-  color: #252525;
+  color: #dbdbdb;
   min-height:200vh;
 }
 
@@ -71,7 +71,7 @@ li {
   position: relative;
 }
 
-a {
+.navbar a {
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
@@ -174,6 +174,16 @@ a:hover{
   background: rgb(0, 0, 0);
   opacity: 0.2;
 }
+
+.mainTxt{
+  padding-top: 320px;
+  padding-left: 50px;
+  font-size: 50px;
+  color: white !important;
+  
+}
+
+
 /* ~~~~~~~~~~~~~~~~~~~~~~    ~~~~~~~~~~~~~~~~~~~~~~ */
 
 .smallSection {
