@@ -5,6 +5,10 @@ $(document).ready(function () {
   $('.fadeOnLoad').fadeIn('slow');
 });
 
+$(document).ready(function () {
+  $('.fadeOnLoadSmall').fadeIn('slow');
+});
+
 $(window).scroll(function(){
 	$('.navbar').toggleClass('scrolled', $(this).scrollTop() > 50);
 });
@@ -30,4 +34,6 @@ $(window).scroll(function() {
   });
 });
 
- var rellax = new Rellax('.rellax');
+var rellax = new Rellax('.rellax');
+ 
+
