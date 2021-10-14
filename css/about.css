@@ -153,7 +153,6 @@ li {
   background-size: cover;
   background-position: 50% 70%;
   display: flex;
-  display: inline-block;
 }
 
 .mainDiv {
@@ -178,4 +177,13 @@ li {
 
 .mainDivTxtSmall {
   font-size: 20px;
+}
+
+.firstSection {
+  width: 100%;
+  height: 400px;
+  background-color: #252525;
+}
+.firstImg {
+  width: 50%;
 }
