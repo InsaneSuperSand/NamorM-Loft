@@ -32,6 +32,8 @@ html {
   z-index: 99;
   height: 140px;
   background-color: transparent;
+  padding-left: 20vh;
+  padding-right: 20vh;
 }
 
 /*.navbar::before {
