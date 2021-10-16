@@ -2,6 +2,7 @@ body,
 html {
   margin: 0;
   padding: 0;
+  /*background-color: #eeeeee;*/
   background-color: #000000;
   font: bold 14px/1.4 "Open Sans", arial, sans-serif;
   /* min-height:200vh;  */
@@ -283,18 +284,12 @@ li {
   }
 }
 
-/* KONIEC NAVBARA */
-
-.beforeMain {
-  height: 300px;
-
-  background-color: #0f0f0f;
-}
+/* END NAVBAR */
 
 .main {
   height: 550px;
   width: auto;
-  background: url(../img/about.jpg) no-repeat center center;
+  background: url(../img/contact.jpg) no-repeat center center;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
@@ -316,6 +311,10 @@ li {
   color: #eeeeee;
   font-size: 50px;
 }
+
+.mainDivTxt {
+  padding-top: 80px;
+}
 @media screen and (max-width: 1024px) {
   .mainDiv {
     padding: 0 0 0 0 !important;
@@ -326,99 +325,22 @@ li {
   font-size: 20px;
 }
 
+/* ~~~~~~~ Contact Form ~~~~~~~ */
 .break {
   height: 100px;
   background-color: #eeeeee;
 }
 
-.firstSection {
-  width: 100%;
-  height: 400px;
-  background-color: #0f0f0f;
-  display: flex;
-  flex-wrap: wrap;
-}
-.firstImg {
-  background: url(../img/family.jpg) no-repeat center center;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  width: 50%;
-  height: 400px;
-  flex-shrink: 0;
-}
-.firstTxt {
-  color: #eeeeee;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 150px;
-  padding-right: 200px;
-  width: 50%;
-  font-size: 24px;
-  font-weight: 100;
-  text-decoration: none;
-  flex-shrink: 0;
-  line-height: 1.4;
-  font-family: "Lato", serif;
-}
-@media screen and (max-width: 1024px) {
-  .firstSection {
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .firstImg {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
-@media screen and (max-width: 1024px) {
-  .firstTxt {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 0 0 0;
-    text-align: center;
-  }
-}
-
-.secondText {
+.contactInfo {
   height: auto;
-}
-
-.companyInfo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 550px;
-  padding-right: 550px;
-  font-family: "Lato", serif;
-  font-size: 25px;
-  font-weight: 300;
-  line-height: 1.4;
   background-color: #eeeeee;
 }
-
-@media screen and (max-width: 1024px) {
-  .companyInfo {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 0 0 0;
-    text-align: center;
-    background-color: #eeeeee;
-  }
+.contactAddress {
+  padding-top: 50px;
+  background-color: #eeeeee;
+  width: 100%;
+  font-size: 50px;
 }
-
 /* ~~~~~~~~~~ FOOTER ~~~~~~~~~~ */
 
 .footer {

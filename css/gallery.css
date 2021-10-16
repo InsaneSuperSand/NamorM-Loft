@@ -3,12 +3,16 @@ html {
   margin: 0;
   padding: 0;
   /*background-color: #eeeeee;*/
-  background-color: #eeeeee;
+  background-color: #000000;
   font: bold 14px/1.4 "Open Sans", arial, sans-serif;
   /* min-height:200vh;  */
   height: auto;
 }
-
+body {
+  opacity: 0;
+  transition: opacity 2s;
+  -webkit-transition: opacity 2s; /* Safari */
+}
 /* ~~~~~~~~~~~~~~~~~~~~~~  NAVBAR  ~~~~~~~~~~~~~~~~~~~~~~ */
 
 @media screen and (max-width: 1025px) {
@@ -288,8 +292,19 @@ li {
   background-color: #0f0f0f;
 }
 
+.header {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* ~~~~~~~~~~~~~~~~ GALLERY ~~~~~~~~~~~~~~~~/ */
-
+.header {
+  background-color: #eeeeee;
+}
+.row {
+  background-color: #eeeeee;
+}
 /* ~~~~~~~~~~ FOOTER ~~~~~~~~~~ */
 
 .footer {
