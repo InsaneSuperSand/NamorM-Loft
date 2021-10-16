@@ -386,12 +386,18 @@ li {
 
 .smallSectionTextDiv {
   width: 100%;
-  height: 30vh;
 
   float: none;
 
   color: #eeeeee;
   font-size: 30px;
+}
+@media screen and (max-width: 1023px) {
+  /* I've given 1023px but you can change to proper width */
+  .smallSectionText {
+    font-size: 15px;
+    margin-top: -20vh;
+  }
 }
 
 .smallSectionText {
