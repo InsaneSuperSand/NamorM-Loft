@@ -1,10 +1,8 @@
-/*@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css);*/
 body {
   margin: 0;
   padding: 0;
   background-color: #000000;
   font: bold 14px/1.4 "Open Sans", arial, sans-serif;
-  /* min-height:200vh;  */
   height: auto;
 }
 body {
@@ -12,6 +10,7 @@ body {
   transition: opacity 2s;
   -webkit-transition: opacity 2s; /* Safari */
 }
+
 /* ~~~~~~~~~~~~~~~~~~~~~~  NAVBAR  ~~~~~~~~~~~~~~~~~~~~~~ */
 
 @media screen and (max-width: 1025px) {
@@ -40,16 +39,6 @@ body {
   padding-right: 20vh;
 }
 
-/*.navbar::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 5px;
-  width: 50%;
-  border-top: 3px solid #000;
-}*/
-
 .navbar a {
   float: left;
 
@@ -61,7 +50,7 @@ body {
   border-radius: 4px;
 }
 
-/* dzięki temu jest z prawej strony co trzeba  */
+/* object on the right  */
 ul {
   padding: 0;
   list-style: none;
@@ -71,7 +60,7 @@ ul {
   float: right;
 }
 
-/* to odpowiada za to, że przyciski są szeroko  */
+/* buttons are wide  */
 li {
   display: table-cell;
   position: relative;
@@ -117,37 +106,6 @@ li {
   padding-top: 10px;
 }
 
-/*
-@media screen and (max-height: 300px) {
-  ul {
-    margin-top: 40px;
-  }
-}
-
- /*Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally 
-@media screen and (max-width: 580px) {
-  .navbar {
-    padding: 20px 10px !important;
-    /* Use !important to make sure that JavaScript doesn't override the padding on small screens 
-  }
-
-  .navbar a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-
-*/
-/* nie mam pojęcia co to jest XD 
-@media (min-width: 768px) {
-  .navbar-brand.abs {
-    position: absolute;
-    width: auto;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-  }
-} */
 @media screen and (min-width: 1024px) {
   .smallNav {
     display: none !important;
@@ -283,9 +241,9 @@ li {
   }
 }
 
-/* KONIEC NAVBARA */
+/* END NAVBAR */
 
-/* ~~~~~~~~~~~~~~~~~~~~~~   ~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~  FIRST SECTION  ~~~~~~~~~~~~~~~~~~~~~~ */
 
 .main {
   background: url(../img/background.jpg) no-repeat center center fixed;
@@ -364,7 +322,7 @@ li {
   display: none;
 }
 
-/* ~~~~~~~~~~~~~~~~~~~~~~    ~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~~~~~~~~~~~~~~~~~~~~  SECOND SECTION  ~~~~~~~~~~~~~~~~~~~~~~ */
 
 .smallSection {
   background: url(../img/second.jpg) no-repeat center center fixed;
@@ -440,22 +398,3 @@ li {
   padding-top: 20px;
   font-size: 20px;
 }
-
-/* ~~~~~~~~~~~~~~~~~~~~~~  SLIDING BACKGROUND  ~~~~~~~~~~~~~~~~~~~~~~ */
-/*
-.wrapper {
-    overflow: hidden;
-}
-
-.sliding-background {
-    height: 960px;
-    width: 6000px;
-}
-
-.sliding-background {
-    background:url(../img/background.jpg) repeat-x;
-    height: 500px;
-    width: 5076px;
-}
-
-*/

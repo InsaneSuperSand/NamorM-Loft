@@ -4,7 +4,7 @@ html {
   padding: 0;
   background-color: #000000;
   font: bold 14px/1.4 "Open Sans", arial, sans-serif;
-  /* min-height:200vh;  */
+
   height: auto;
 }
 body {
@@ -40,16 +40,6 @@ body {
   padding-right: 20vh;
 }
 
-/*.navbar::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 5px;
-  width: 50%;
-  border-top: 3px solid #000;
-}*/
-
 .navbar a {
   float: left;
 
@@ -61,7 +51,7 @@ body {
   border-radius: 4px;
 }
 
-/* dzięki temu jest z prawej strony co trzeba  */
+/* ITEMS ON RIGHT  */
 ul {
   padding: 0;
   list-style: none;
@@ -71,7 +61,7 @@ ul {
   float: right;
 }
 
-/* to odpowiada za to, że przyciski są szeroko  */
+/* BOOTONS ARE RIGHT  */
 li {
   display: table-cell;
   position: relative;
@@ -117,37 +107,6 @@ li {
   padding-top: 10px;
 }
 
-/*
-@media screen and (max-height: 300px) {
-  ul {
-    margin-top: 40px;
-  }
-}
-
- /*Add responsiveness - on screens less than 580px wide, display the navbar vertically instead of horizontally 
-@media screen and (max-width: 580px) {
-  .navbar {
-    padding: 20px 10px !important;
-    /* Use !important to make sure that JavaScript doesn't override the padding on small screens 
-  }
-
-  .navbar a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-
-*/
-/* nie mam pojęcia co to jest XD 
-@media (min-width: 768px) {
-  .navbar-brand.abs {
-    position: absolute;
-    width: auto;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-  }
-} */
 @media screen and (min-width: 1024px) {
   .smallNav {
     display: none !important;
@@ -283,7 +242,9 @@ li {
   }
 }
 
-/* KONIEC NAVBARA */
+/* END NAVBAR */
+
+/* ~~~~~~~~ FIRST SECTION ~~~~~~~~ */
 
 .beforeMain {
   height: 300px;
@@ -316,15 +277,18 @@ li {
   color: #eeeeee;
   font-size: 50px;
 }
+
+.mainDivTxtSmall {
+  font-size: 20px;
+}
+
 @media screen and (max-width: 1024px) {
   .mainDiv {
     padding: 0 0 0 0 !important;
   }
 }
 
-.mainDivTxtSmall {
-  font-size: 20px;
-}
+/* ~~~~~~~~ SECOND SECTION ~~~~~~~~ */
 
 .break {
   height: 100px;
@@ -389,6 +353,8 @@ li {
     text-align: center;
   }
 }
+
+/* ~~~~~~~~ THIRD SECTION ~~~~~~~~ */
 
 .secondText {
   height: auto;
