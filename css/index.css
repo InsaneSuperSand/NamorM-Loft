@@ -16,7 +16,7 @@ body {
 @media screen and (max-width: 1025px) {
   .navbar {
     display: none !important;
-    white-space: nowrap;
+  
   }
 }
 
@@ -42,7 +42,7 @@ body {
 
 .navbar a {
   float: left;
-
+  white-space: nowrap;
   text-align: center;
   padding: 12px;
   text-decoration: none;
