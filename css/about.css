@@ -326,6 +326,14 @@ li {
   line-height: 1.4;
   font-family: "Lato", serif;
 }
+
+@media screen and (max-width: 1500px) {
+  .firstTxt {
+    padding: 0 0 0 0;
+    text-align: center;
+  }
+
+}
 @media screen and (max-width: 1024px) {
   .firstSection {
     height: auto;
@@ -383,6 +391,14 @@ li {
     text-align: center;
     background-color: #eeeeee;
   }
+}
+
+@media screen and (max-width: 1500px) {
+  .companyInfo {
+    padding: 0 0 0 0;
+    text-align: center;
+  }
+
 }
 
 /* ~~~~~~~~~~ FOOTER ~~~~~~~~~~ */
