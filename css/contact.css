@@ -285,6 +285,53 @@ li {
 }
 
 /* ~~~~~~~ Contact Form ~~~~~~~ */
+
+.contact {
+  background-color: #ededed;
+  display: flex;
+  height: 700px;
+  width: 100%;
+}
+
+.contactInfoLeft {
+  position: relative;
+
+  display: flex;
+
+  background-color: rgb(240, 96, 96);
+  width: 30%;
+}
+.contactInformation {
+  margin-top: 160px;
+  flex-direction: column;
+  display: flex;
+  margin-left: auto;
+  font-size: 25px;
+}
+
+.contactInformation a {
+  font-weight: 100;
+}
+
+.contactFormRight {
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  width: 70%;
+  background-color: aqua;
+}
+.form-container {
+  margin-top: 160px;
+  background-color: khaki;
+  width: 25%;
+}
+.form-container-panel-form {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+}
+/*
 .break {
   height: 100px;
   background-color: #eeeeee;
@@ -307,7 +354,7 @@ li {
     justify-content: center;
     align-items: center;
   }
-}
+}*/
 
 /* ~~~~~~~~~~ FOOTER ~~~~~~~~~~ */
 
