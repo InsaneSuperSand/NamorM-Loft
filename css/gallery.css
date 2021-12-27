@@ -34,34 +34,3 @@ body {
 .row {
   background-color: #eeeeee;
 }
-/* ~~~~~~~~~~ FOOTER ~~~~~~~~~~ */
-
-.footer {
-  height: 40vh;
-  background-color: #f5f5f5;
-
-  position: absolute;
-  width: 100%;
-  align-items: center;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-weight: lighter;
-}
-
-.info {
-  margin-top: 5vh;
-  font-size: 20px;
-  color: #a8a8a8 !important;
-}
-.infoUnder {
-  font-size: 20px;
-  color: #a8a8a8 !important;
-}
-
-#footerLink {
-  font-weight: bold;
-}
-#footerRight {
-  padding-top: 20px;
-  font-size: 20px;
-}
